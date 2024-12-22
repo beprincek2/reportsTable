@@ -1,7 +1,6 @@
 # Report Display Application
 
 A simple report display application built using **Vue.js 3** and **Vuetify** to demonstrate report management features.
----
 
 ## Demo(Desktop version only)
 
@@ -29,11 +28,6 @@ https://reports-table.vercel.app/
   - **PDF**
   - **Excel**
 
-### Additional Features
-- **State Management**: Implemented using Pinia for efficient state management(not fully integrated).
-
----
-
 ## Tech Stack
 
 - **Vue.js 3**: Frontend framework
@@ -41,15 +35,13 @@ https://reports-table.vercel.app/
 - **Pinia**: State management library
 - **JavaScript**: Language 
 
----
-
 ## Installation and Setup
 
 Follow the steps below to run the application locally:
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) installed (version 16 or higher)
-- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/) package manager installed
+- [npm](https://www.npmjs.com/)
 
 ### Clone the Repository
 ```bash
@@ -83,26 +75,15 @@ npm run build
 
 ```
 src/
-├── components/       # Vue components (e.g., DataTable, SearchField, ExportButton)
+├── components/       # Vue components (e.g., DataTable, SearchField)
 ├── services/         # API mock service for fetching reports
 ├── store/            # Pinia state management setup
 ├── assets/           # Static assets
 ├── App.vue           # Main application component
 ├── main.js           # Application entry point
 ```
-
-## API Data
-
-Sample data is returned as a static JSON array for demonstration purposes.
-
-## Enhancements and Additional Features
-
-- Used **Pinia** for state management.
-- Applied **Material Design Icons** for an intuitive user interface.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
+### Additional Features
+- **State Management**: Implemented using Pinia for efficient state management(though not fully integrated gave it a try).
 
 ## Author
 
