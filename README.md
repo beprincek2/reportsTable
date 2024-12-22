@@ -71,17 +71,6 @@ npm run build
 3. Use the search bar to filter reports by transaction type or account holder name.
 4. Click on the export buttons to download the report data in **CSV**, **PDF**, or **Excel** formats.
 
-## Project Structure
-
-```
-src/
-├── components/       # Vue components (e.g., DataTable, SearchField)
-├── services/         # API mock service for fetching reports
-├── store/            # Pinia state management setup
-├── assets/           # Static assets
-├── App.vue           # Main application component
-├── main.js           # Application entry point
-```
 ### Additional Features
 - **State Management**: Implemented using Pinia for efficient state management(though not fully integrated gave it a try).
 
